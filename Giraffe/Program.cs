@@ -10,9 +10,13 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            Console.Write("Hello please enter your name: ");
+            string name = Console.ReadLine();
 
-            Console.ReadLine();
+            Console.Write("Enter age: ");
+            string age = Console.ReadLine();
+
+            Console.WriteLine("hey " + name + " you are " + age + " years old.");
         }
     }
 }

@@ -10,6 +10,14 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
+            // Object Methods
+            Student student1 = new Student("Carl", "Software Engineer", 3.5);
+            Student student2 = new Student("Bob", "Teacher", 3.1);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+
+            // Classes and Objects
             Book book1 = new Book("Harry Potter", "JK Rowling", 400);
             Book book2 = new Book("The Lord Of The Rings", "JRR Tolkien", 700);
             book2.title = "The Hobbit";

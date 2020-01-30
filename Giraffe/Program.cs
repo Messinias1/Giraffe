@@ -10,12 +10,15 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number: ");
-            var num1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Enter a second number: ");
-            var num2 = Convert.ToDouble(Console.ReadLine());
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
 
-            Console.WriteLine(num1 + num2);
+            Book book2 = new Book();
+            book2.title = "The Lord Of The Rings";
+            book2.author = "JRR Tolkien";
+            book2.pages = 700;
         }
     }
 }
